@@ -1,0 +1,63 @@
+# IntelliJ files
+.idea/
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Java, Maven, Gradle
+.gradle/
+.mvn/
+target/
+out/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# macOS and Windows
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Other IDE files
+.vscode/
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+.docker/
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+*~
+
+# Spring Boot
+*.iml
+
+# IntelliJ-specific configuration files
+.idea/.name
+.idea/modules.xml
+.idea/misc.xml
+.idea/artifacts/
+.idea/runConfigurations/
