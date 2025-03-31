@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/api/bookings")
 @Tag(name = "Rezerwacje", description = "Endpoint'y do zarządzania rezerwacjami salonu.")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class BookingController {
     @Autowired
     private BookingRepository bookingRepository;

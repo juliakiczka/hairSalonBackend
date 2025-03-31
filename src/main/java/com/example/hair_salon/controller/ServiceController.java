@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/services")
 @Tag(name = "Usługi", description = "Endpoint'y do zarządzania usługami salonu.")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class ServiceController {
     @Autowired
     private ServiceService serviceService;

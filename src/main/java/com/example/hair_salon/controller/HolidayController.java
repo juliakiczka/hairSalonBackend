@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/holidays")
 @Tag(name = "Urlopy", description = "Endpoint'y do zarządzania urlopami pracowników salonu.")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class HolidayController {
 
     @Autowired

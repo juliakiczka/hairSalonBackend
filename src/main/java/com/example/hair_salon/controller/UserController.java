@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/api/users")
 @Tag(name = "Użytkownicy", description = "Endpoint'y do zarządzania użytkownikami salonu.")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class UserController {
     @Autowired
     private UserService userService;

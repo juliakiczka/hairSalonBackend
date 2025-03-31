@@ -14,6 +14,6 @@ public class SwaggerConfig {
                 .info(new Info()
                         .title("API Salonu Fryzjerskiego")
                         .version("1.0.0")
-                        .description("API documentation for the Hair Salon application"));
+                        .description("Dokumentacja dla API salonu fryzjerskiego z potencjałem."));
     }
 }
